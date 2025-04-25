@@ -1,4 +1,4 @@
-# Life Expectancy Prediction Using Linear Regression (Ordinary Least Squares)
+# Life Expectancy Prediction Using Linear Regression (Ordinary Least Squares) 
 
 ## 📌 Objective
 The objective of this project is to develop an interpretable and statistically robust model that predicts the **life expectancy** of countries based on a variety of socio-economic, environmental, and health-related factors. By using **linear regression**, this project aims to:
