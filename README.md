@@ -1,4 +1,4 @@
-# Life Expectancy Prediction Using Linear Regression (Ordinary Least Squares)
+# Life Expectancy Prediction Using Linear Regression (Ordinary Least Squares) 
 
 ## 📌 Objective
 Predicting **life expectancy** and understanding which factors are of significant influence is crucial for informing policy decisions for public health strategies and improving population wellbeing. In this project, a statistically robust **linear regression** model is developed which quantifies the impacts of key socio-economic, environmental, and health-related factors. From the results of this estimation, an interface is developed which allows users to input data and obtain accurate life expectancy predictions. 
