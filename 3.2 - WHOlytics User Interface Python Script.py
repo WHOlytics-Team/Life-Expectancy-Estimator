@@ -1,6 +1,6 @@
 import numpy as np
 
-def equation1(
+def advanced_model(
     year_input,
     infant_deaths_input,
     adult_mortality_input,
@@ -41,7 +41,7 @@ def equation1(
     )
 
 
-def equation2(
+def minimum_model(
     year_input,
     adult_mortality_input,
     bmi_input,
@@ -125,8 +125,8 @@ def main():
     inputs = get_data_advanced()
     
     print("\nRunning predictions...\n")
-    result1 = equation1(**inputs)
-    result2 = equation2(
+    result1 = advanced_model(**inputs)
+    result2 = minimum_model(
         inputs["year_input"],
         inputs["adult_mortality_input"],
         inputs["bmi_input"],
@@ -142,8 +142,8 @@ def main():
         inputs["south_america_input"]
     )
     
-    print(f"🔮 Prediction using Equation 1: {result1:.2f} years")
-    print(f"🔮 Prediction using Equation 2: {result2:.2f} years")
+    print(f"🔮 Prediction using the Advanced Model: {result1:.2f} years")
+    print(f"🔮 Prediction using Minimum Model: {result2:.2f} years")
 
 
 if __name__ == "__main__":
