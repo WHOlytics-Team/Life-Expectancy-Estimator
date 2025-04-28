@@ -49,7 +49,7 @@ Run the program in Terminal
 
 ---
 
-Please run from **the folder "3 - Estimator GUI"** containing `main.py`
+Please run from **the folder "Estimator GUI"** containing `main.py`
 
 ```
 python3 main.py
