@@ -45,8 +45,7 @@ Please note that the region should be inputed into the JSON string in the follow
 "region": "South America", "region_south_america": 1
 ```
 
-Run the program in Terminal
-
+## Run the program in Terminal
 ---
 
 Please run from **the folder "Estimator GUI"** containing `main.py`
